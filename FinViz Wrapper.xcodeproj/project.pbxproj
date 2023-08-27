@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE22706E2A9BEBC8009E517A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE22706D2A9BEBC8009E517A /* Assets.xcassets */; };
+		AE2270742A9BEBC8009E517A /* FinViz Wrapper MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AE2270732A9BEBC8009E517A /* FinViz Wrapper MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE2270792A9BEBC8009E517A /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2270782A9BEBC8009E517A /* Messages.framework */; };
+		AE22707C2A9BEBC8009E517A /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22707B2A9BEBC8009E517A /* MessagesViewController.swift */; };
+		AE22707F2A9BEBC8009E517A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE22707D2A9BEBC8009E517A /* MainInterface.storyboard */; };
+		AE2270812A9BEBC9009E517A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2270802A9BEBC9009E517A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE2270752A9BEBC8009E517A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE2270642A9BEBC7009E517A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2270722A9BEBC8009E517A;
+			remoteInfo = "FinViz Wrapper MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE2270882A9BEBC9009E517A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AE2270742A9BEBC8009E517A /* FinViz Wrapper MessagesExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE22706A2A9BEBC7009E517A /* FinViz Wrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinViz Wrapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE22706D2A9BEBC8009E517A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE2270732A9BEBC8009E517A /* FinViz Wrapper MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FinViz Wrapper MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2270782A9BEBC8009E517A /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		AE22707B2A9BEBC8009E517A /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		AE22707E2A9BEBC8009E517A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AE2270802A9BEBC9009E517A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE2270822A9BEBC9009E517A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE2270702A9BEBC8009E517A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2270792A9BEBC8009E517A /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE2270632A9BEBC7009E517A = {
+			isa = PBXGroup;
+			children = (
+				AE22706C2A9BEBC7009E517A /* FinViz Wrapper */,
+				AE22707A2A9BEBC8009E517A /* FinViz Wrapper MessagesExtension */,
+				AE2270772A9BEBC8009E517A /* Frameworks */,
+				AE22706B2A9BEBC7009E517A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE22706B2A9BEBC7009E517A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE22706A2A9BEBC7009E517A /* FinViz Wrapper.app */,
+				AE2270732A9BEBC8009E517A /* FinViz Wrapper MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE22706C2A9BEBC7009E517A /* FinViz Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				AE22706D2A9BEBC8009E517A /* Assets.xcassets */,
+			);
+			path = "FinViz Wrapper";
+			sourceTree = "<group>";
+		};
+		AE2270772A9BEBC8009E517A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE2270782A9BEBC8009E517A /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE22707A2A9BEBC8009E517A /* FinViz Wrapper MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AE22707B2A9BEBC8009E517A /* MessagesViewController.swift */,
+				AE22707D2A9BEBC8009E517A /* MainInterface.storyboard */,
+				AE2270802A9BEBC9009E517A /* Assets.xcassets */,
+				AE2270822A9BEBC9009E517A /* Info.plist */,
+			);
+			path = "FinViz Wrapper MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE2270692A9BEBC7009E517A /* FinViz Wrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2270892A9BEBC9009E517A /* Build configuration list for PBXNativeTarget "FinViz Wrapper" */;
+			buildPhases = (
+				AE2270682A9BEBC7009E517A /* Resources */,
+				AE2270882A9BEBC9009E517A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE2270762A9BEBC8009E517A /* PBXTargetDependency */,
+			);
+			name = "FinViz Wrapper";
+			productName = "FinViz Wrapper";
+			productReference = AE22706A2A9BEBC7009E517A /* FinViz Wrapper.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		AE2270722A9BEBC8009E517A /* FinViz Wrapper MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2270852A9BEBC9009E517A /* Build configuration list for PBXNativeTarget "FinViz Wrapper MessagesExtension" */;
+			buildPhases = (
+				AE22706F2A9BEBC8009E517A /* Sources */,
+				AE2270702A9BEBC8009E517A /* Frameworks */,
+				AE2270712A9BEBC8009E517A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FinViz Wrapper MessagesExtension";
+			productName = "FinViz Wrapper MessagesExtension";
+			productReference = AE2270732A9BEBC8009E517A /* FinViz Wrapper MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE2270642A9BEBC7009E517A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AE2270692A9BEBC7009E517A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AE2270722A9BEBC8009E517A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE2270672A9BEBC7009E517A /* Build configuration list for PBXProject "FinViz Wrapper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE2270632A9BEBC7009E517A;
+			productRefGroup = AE22706B2A9BEBC7009E517A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE2270692A9BEBC7009E517A /* FinViz Wrapper */,
+				AE2270722A9BEBC8009E517A /* FinViz Wrapper MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE2270682A9BEBC7009E517A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE22706E2A9BEBC8009E517A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2270712A9BEBC8009E517A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2270812A9BEBC9009E517A /* Assets.xcassets in Resources */,
+				AE22707F2A9BEBC8009E517A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE22706F2A9BEBC8009E517A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE22707C2A9BEBC8009E517A /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE2270762A9BEBC8009E517A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE2270722A9BEBC8009E517A /* FinViz Wrapper MessagesExtension */;
+			targetProxy = AE2270752A9BEBC8009E517A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE22707D2A9BEBC8009E517A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE22707E2A9BEBC8009E517A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE2270832A9BEBC9009E517A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE2270842A9BEBC9009E517A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE2270862A9BEBC9009E517A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NH5VQH28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinViz Wrapper MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinViz Wrapper";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stocks.FinViz-Wrapper.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE2270872A9BEBC9009E517A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NH5VQH28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinViz Wrapper MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FinViz Wrapper";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stocks.FinViz-Wrapper.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE22708A2A9BEBC9009E517A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NH5VQH28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stocks.FinViz-Wrapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE22708B2A9BEBC9009E517A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NH5VQH28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stocks.FinViz-Wrapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE2270672A9BEBC7009E517A /* Build configuration list for PBXProject "FinViz Wrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2270832A9BEBC9009E517A /* Debug */,
+				AE2270842A9BEBC9009E517A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2270852A9BEBC9009E517A /* Build configuration list for PBXNativeTarget "FinViz Wrapper MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2270862A9BEBC9009E517A /* Debug */,
+				AE2270872A9BEBC9009E517A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2270892A9BEBC9009E517A /* Build configuration list for PBXNativeTarget "FinViz Wrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE22708A2A9BEBC9009E517A /* Debug */,
+				AE22708B2A9BEBC9009E517A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE2270642A9BEBC7009E517A /* Project object */;
+}
